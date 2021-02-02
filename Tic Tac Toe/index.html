@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <title>
+    tic tac toe
+  </title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="algorithm.js"></script>
+</head>
+<body>
+  <header id="welcomeText">Welcome to Tic Tac Toe game!</header>
+  <div id="toggleContainer" class="toggleContainer">
+    <p id="sideSelectorTitle">Choose AI Sign</p>
+    <div>
+        <p class="eachSide" id="eksToggleTitle">o</p>
+        <label class="switch">
+          <input id="playerSelect" class="playerSelect" type="checkbox"/>
+          <div class="slider round">
+          </div>
+        </label>
+        <p class="eachSide" id="oohToggleTitle">x</p>
+    </div>
+    <div id="resetContainer">
+      <button id="resetButton" class="resetButton">RESET</button>
+    </div>
+  </div>
+
+  <div class="gameframe" id="gameframe">
+    <div class="lines" id="lines">
+      <div class="horizontal" id="horizontal">
+        <hr class="lineProp" id="hl1"/>
+        <hr class="lineProp" id="hl2" />
+      </div>
+      <div class="vertical" id="vertical">
+        <hr class="lineProp" id="vl1" />
+        <hr class="lineProp" id="vl2" />
+      </div>
+    </div>
+    <div class="listener">
+      <div class="eachListener free" id="one" title="0">
+
+      </div>
+      <div class="eachListener free" id="two" title="1">
+
+      </div>
+      <div class="eachListener free" id="three" title="2">
+
+      </div>
+      <div class="eachListener free" id="four" title="3">
+
+      </div>
+      <div class="eachListener free" id="five" title="4">
+
+      </div>
+      <div class="eachListener free" id="six" title="5">
+
+      </div>
+      <div class="eachListener free" id="seven" title="6">
+
+      </div>
+      <div class="eachListener free" id="eight" title="7">
+
+      </div>
+      <div class="eachListener free" id="nine" title="8">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
